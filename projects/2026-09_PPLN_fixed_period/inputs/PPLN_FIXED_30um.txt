@@ -1,0 +1,77 @@
+Pulse energy 1 (J): 2.5e-08
+Pulse energy 2 (J): 1e-08
+Frequency 1 (Hz): 374740000000000
+Frequency 2 (Hz): 56000000000000
+Bandwidth 1 (Hz): 46840000000000
+Bandwidth 2 (Hz): 75000000000000
+SG order 1: 2
+SG order 2: 2
+CEP 1 (rad): 0
+CEP 2 (rad): 0
+Delay 1 (s): 0
+Delay 2 (s): 0
+GDD 1 (s^-2): -5e-28
+GDD 2 (s^-2): 0
+TOD 1 (s^-3): 0
+TOD 2 (s^-3): 0
+Phase material 1 index: 2
+Phase material 2 index: 2
+Phase material thickness 1 (mcr.): 0
+Phase material thickness 2 (mcr.): 0
+Beam mode placeholder: 0
+Beamwaist 1 (m): 0.0002
+Beamwaist 2 (m): 0.00015
+x offset 1 (m): 0
+x offset 2 (m): 0
+y offset 1 (m): 0
+y offset 2 (m): 0
+z offset 1 (m): 0
+z offset 2 (m): 0
+NC angle 1 (rad): 0
+NC angle 2 (rad): 0
+NC angle phi 1 (rad): 0
+NC angle phi 2 (rad): 0
+Polarization 1 (rad): 0
+Polarization 2 (rad): 0
+Circularity 1: 0
+Circularity 2: 0
+Material index: 12
+Alternate material index: 0
+Crystal theta (rad): 1.5707963267949
+Crystal phi (rad): 0
+Grid width (m): 0.000768
+Grid height (m): 0
+dx (m): 6e-06
+Time span (s): 2.9988e-12
+dt (s): 4.5e-16
+Thickness (m): 0.0005
+dz (m): 2.5e-07
+Nonlinear absorption parameter: 0
+Initial carrier density (m^-3): 0
+Band gap (eV): 6
+Effective mass (relative): 0
+Drude gamma (Hz): 0
+Propagation mode: 1
+Batch mode: 0
+Batch destination: 1e-05
+Batch steps: 1
+Batch mode 2: 0
+Batch destination 2: 1000
+Batch steps 2: 1
+Sequence: init()nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,15,d)rotate(180)nonlinear(d,d,d,5,d)
+Fitting: 
+Fitting mode: 0
+Output base path: outputs/PPLN_FIXED_30um
+Field 1 from file type: 0
+Field 2 from file type: 0
+Field 1 file path: 
+Field 2 file path: 
+Fitting reference file path: 
+Material name: MgO:LiNbO3
+Sellmeier reference: O. Gayer, et al., Appl. Phys. B 91, 343-348 (2008)
+Chi2 reference: Nikogosian, Nonlinear Optical Crystals - A Complete Survey, values from stoichimetric, except for d33, reduced to 26, based on https://arxiv.org/abs/2111.13796
+Chi3 reference: https://arxiv.org/abs/2111.13796
+5.65089,0.118417,0,-0.043728,89.6158,0,-117.722,0,0,0,0,0,0,-0.0197,0,0,0,0,0,0,0,0
+5.7484,0.098175,0,-0.0407384,188.917,0,-156.75,0,0,0,0,0,0,-0.0132,0,0,0,0,0,0,0,0
+5.7484,0.098175,0,-0.0407384,188.917,0,-156.75,0,0,0,0,0,0,-0.0132,0,0,0,0,0,0,0,0
+Code version: 2025.2
