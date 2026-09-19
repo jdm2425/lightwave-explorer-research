@@ -1,0 +1,51 @@
+study: PPLN_fixed_period_pump_GDD_comparison
+date: 2026-09-19
+software:
+  package: Lightwave Explorer
+  runtime_tag: v2026.1.5
+  runtime_commit: 81756a954877de9306dcfae1c1ea19893c5691aa
+observable:
+  name: integrated_output_energy
+  wavelength_min_nm: 950
+  wavelength_max_nm: 1050
+  integration_axis: native_frequency_grid
+convergence:
+  physics_case:
+    pump_GDD_fs2: 0
+    validation_periods_um: [21.75, 23.0]
+  fine_reference_grid:
+    dt_fs: 0.45
+    dx_um: 6
+    dz_um: 0.25
+    time_window_ps: 2.9988
+    transverse_window_um: 768
+    crystal_length_um: 500
+  acceptance:
+    integrated_energy_relative_error_percent_max: 1.0
+    spectral_L1_700_1600_relative_error_percent_max: 2.0
+  accepted_grid:
+    dt_fs: 0.60
+    dx_um: 6
+    dz_um: 0.50
+  final_validation:
+    - period_um: 21.75
+      reference_energy_pJ: 1195.211173
+      candidate_energy_pJ: 1193.509819
+      energy_error_percent: 0.142348
+      spectral_L1_error_percent: 0.045162
+      pass: true
+    - period_um: 23.0
+      reference_energy_pJ: 600.206145
+      candidate_energy_pJ: 605.861605
+      energy_error_percent: 0.942253
+      spectral_L1_error_percent: 0.041465
+      pass: true
+  reporting:
+    conservative_numerical_sensitivity_percent: 1.0
+    interpretation: numerical_resolution_sensitivity_not_statistical_confidence_interval
+scan_sampling:
+  locally_refined_region_um: [20, 24]
+  local_step_um: 0.125
+model_limitations:
+  - coherent_MIR_seed_used_as_surrogate_for_vacuum_initiated_OPG
+  - absolute_yield_not_directly_equivalent_to_spontaneous_OPG_prediction
