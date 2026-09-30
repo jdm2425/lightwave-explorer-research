@@ -1,0 +1,35 @@
+Read 31 crystal database entries:
+Material 0 name: Vacuum
+Material 1 name: BBO
+Material 2 name: BaF2
+Material 3 name: TiO2 Rutile
+Material 4 name: BiBO (rot 47deg)
+Material 5 name: a-Quartz
+Material 6 name: Fused silica
+Material 7 name: Ge
+Material 8 name: Si
+Material 9 name: GaSe
+Material 10 name: 4H-SiC
+Material 11 name: MgF2
+Material 12 name: MgO:LiNbO3
+Material 13 name: LGS
+Material 14 name: LiIO3
+Material 15 name: TiO2 G
+Material 16 name: BBO G
+Material 17 name: ZnS
+Material 18 name: ZnSe
+Material 19 name: SrTiO3
+Material 20 name: Fused silica L
+Material 21 name: BBO L
+Material 22 name: ZGP L
+Material 23 name: GaAs L
+Material 24 name: Air L
+Material 25 name: a-Quartz L
+Material 26 name: BiBO L (rot 47deg)
+Material 27 name: LBO L
+Material 28 name: TiO2 L
+Material 29 name: GaSe L
+Material 30 name: YAG G
+Beam 1 description not found 
+Beam 2 description not found 
+Finished after 545.206s

@@ -1,0 +1,5 @@
+run_name,design_label,poling_start_um,poling_end_um,crystal_length_um,input_file
+FIG13_CHIRP_18_24,18–24 µm,18.0,24.0,500.0,inputs/FIG13_CHIRP_18_24.txt
+FIG13_CHIRP_19p4_22,19.4–22 µm,19.4,22.0,500.0,inputs/FIG13_CHIRP_19p4_22.txt
+FIG13_CHIRP_20_24,20–24 µm,20.0,24.0,500.0,inputs/FIG13_CHIRP_20_24.txt
+FIG13_CHIRP_17p5_20p4,17.5–20.4 µm,17.5,20.4,500.0,inputs/FIG13_CHIRP_17p5_20p4.txt

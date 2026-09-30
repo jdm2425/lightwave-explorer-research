@@ -1,0 +1,19 @@
+parameter,value
+Pulse energy 1 (J),1e-07
+Pulse energy 2 (J),1e-08
+Frequency 1 (Hz),374740000000000
+Frequency 2 (Hz),74950000000000
+Bandwidth 1 (Hz),25000000000000
+Bandwidth 2 (Hz),56210000000000
+SG order 1,4
+SG order 2,10
+GDD 1 (s^-2),-1.23e-27
+GDD 2 (s^-2),0
+Beamwaist 1 (m),0.0002
+Beamwaist 2 (m),0.0002
+Grid width (m),0.000768
+dx (m),6e-06
+Time span (s),2.9988e-12
+dt (s),4.5e-16
+dz (m),2.5e-07
+source_template,/Users/jackmorse/LightwaveExplorer/lightwave-explorer-research/projects/2026-09_PPLN_fixed_period/inputs/PPLN_FIXED_21p75um.txt

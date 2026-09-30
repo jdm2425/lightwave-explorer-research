@@ -1,0 +1,7 @@
+run_name,start_um,end_um,length_um,seeding,n_domains,n_seed_injections,seed_energy_per_injection_nJ,nominal_total_seed_energy_nJ,input_file
+SEEDTEST_FWD_20_24_500_SINGLE,20.0,24.0,500.0,single_entrance,46,1,10.0,10.0,inputs/SEEDTEST_FWD_20_24_500_SINGLE.txt
+SEEDTEST_REV_24_20_500_SINGLE,24.0,20.0,500.0,single_entrance,46,1,10.0,10.0,inputs/SEEDTEST_REV_24_20_500_SINGLE.txt
+SEEDTEST_FWD_20_22_250_SINGLE,20.0,22.0,250.0,single_entrance,24,1,10.0,10.0,inputs/SEEDTEST_FWD_20_22_250_SINGLE.txt
+SEEDTEST_REV_24_22_250_SINGLE,24.0,22.0,250.0,single_entrance,22,1,10.0,10.0,inputs/SEEDTEST_REV_24_22_250_SINGLE.txt
+SEEDTEST_FWD_20_24_500_DISTRIBUTED,20.0,24.0,500.0,distributed_per_period,46,23,0.4347826086956522,10.0,inputs/SEEDTEST_FWD_20_24_500_DISTRIBUTED.txt
+SEEDTEST_REV_24_20_500_DISTRIBUTED,24.0,20.0,500.0,distributed_per_period,46,23,0.4347826086956522,10.0,inputs/SEEDTEST_REV_24_20_500_DISTRIBUTED.txt

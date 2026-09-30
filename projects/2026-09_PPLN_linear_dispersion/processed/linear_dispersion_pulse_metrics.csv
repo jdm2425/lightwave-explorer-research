@@ -1,0 +1,5 @@
+state,pulse,peak_time_fs,intensity_FWHM_fs
+input,pump,0.0,17.79657524667278
+input,seed,0.0,8.133466939127995
+output,pump,2.25,27.3643814235902
+output,seed,-112.05,27.599766427910627

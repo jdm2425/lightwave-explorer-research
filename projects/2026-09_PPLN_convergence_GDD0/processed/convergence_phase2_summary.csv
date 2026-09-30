@@ -1,0 +1,3 @@
+comparison,reference_run,test_run,reference_950_1050_pJ,test_950_1050_pJ,energy_error_pct,spectral_L1_error_700_1600_pct,passes
+combined grid at 21.75 um,CONV_ref,CONV_combined_21p75,1195.211173455217,1197.7937605145344,0.21607788788079157,0.26633644573342424,True
+combined grid at 23.0 um,CONV_spot23_ref,CONV_spot23_combined,600.2061445003169,607.8949752620365,1.281031664232756,0.24757708283818367,False

@@ -1,0 +1,13 @@
+run_name,period_um,pump_gdd_fs2,dt_fs,dx_um,dz_um,purpose,input_file
+CONV_ref,21.75,0.0,0.45,6.0,0.25,reference,inputs/CONV_ref.txt
+CONV_dz_0p50,21.75,0.0,0.45,6.0,0.5,longitudinal,inputs/CONV_dz_0p50.txt
+CONV_dz_1p00,21.75,0.0,0.45,6.0,1.0,longitudinal,inputs/CONV_dz_1p00.txt
+CONV_dx_8,21.75,0.0,0.45,8.0,0.25,transverse,inputs/CONV_dx_8.txt
+CONV_dx_12,21.75,0.0,0.45,12.0,0.25,transverse,inputs/CONV_dx_12.txt
+CONV_dt_0p50,21.75,0.0,0.5,6.0,0.25,temporal,inputs/CONV_dt_0p50.txt
+CONV_dt_0p60,21.75,0.0,0.6,6.0,0.25,temporal,inputs/CONV_dt_0p60.txt
+CONV_combined_21p75,21.75,0.0,0.6,12,1,combined_validation,inputs/CONV_combined_21p75.txt
+CONV_spot23_ref,23,0.0,0.45,6,0.25,second_period_reference,inputs/CONV_spot23_ref.txt
+CONV_spot23_combined,23,0.0,0.6,12,1,second_period_combined,inputs/CONV_spot23_combined.txt
+CONV_candidate_23,23,0.0,0.6,8,1,candidate_combined_validation,inputs/CONV_candidate_23.txt
+CONV_candidate_21p75,21.75,0.0,0.6,8,1,candidate_combined_validation,inputs/CONV_candidate_21p75.txt

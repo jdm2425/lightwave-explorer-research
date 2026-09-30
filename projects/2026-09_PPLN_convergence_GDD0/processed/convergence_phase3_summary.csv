@@ -1,0 +1,2 @@
+period_um,reference_run,candidate_run,reference_950_1050_pJ,candidate_950_1050_pJ,energy_error_pct,spectral_L1_error_700_1600_pct,passes
+23.0,CONV_spot23_ref,CONV_candidate_23,600.2061445003169,606.6826700663122,1.0790501938941592,0.15362043670226433,False

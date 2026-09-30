@@ -1,0 +1,8 @@
+quantity,value
+input_pump_FWHM_fs,17.79657524667278
+output_pump_FWHM_fs,27.3643814235902
+input_seed_FWHM_fs,8.133466939127995
+output_seed_FWHM_fs,27.599766427910627
+input_seed_minus_pump_peak_delay_fs,0.0
+output_seed_minus_pump_peak_delay_fs,-114.3
+measured_linear_walkoff_fs,-114.3
